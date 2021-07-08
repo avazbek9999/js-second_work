@@ -16,7 +16,7 @@
 
 // practis 3
 
-var elHeader = document.querySelector('.headding');
+var elparagraph = document.querySelector('.paragraph')
 
 var where = prompt(`Qayerga sayohat qilmoqchisiz?`);
 alert(
@@ -35,7 +35,7 @@ var money = prompt(
 );
 
 if (money >= expense) {
-	elHeader.textContent = `Oq yo'l ${firstName}`;
+	elparagraph.textContent = `Oq yo'l ${firstName}`
 } else {
-	elHeader.textContent = `${firstName} ozgina sabir qilish kerak bo'lar ekan`;
+	elparagraph.textContent = `${firstName} ozgina sabir qilish kerak bo'lar ekan`
 }
